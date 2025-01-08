@@ -8,14 +8,6 @@ dx = 0.5
 x = np.arange(start=0, stop=Lx, step=dx) 
 nx = len(x) 
 
-whos
-
-x[0]  
-x[nx] 
-x[nx-1]
-x[-1] 
-x[0:5]
-
 C = np.zeros_like(x)
 C_left = 500 
 C_right = 0
