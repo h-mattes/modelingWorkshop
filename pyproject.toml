@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txst-diffusion"
+version = "0.1"
+dependencies = [
+    "matplotlib",
+    "numpy",
+]
+
+[tool.setuptools]
+packages = ["txst_diffusion"]
